@@ -256,7 +256,37 @@ a,
 .showcase-note:hover {
   transform: translateY(-3px);
 }
+.link-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
 
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 18px;
+  background-color: #1e293b; /* Dark slate background */
+  color: #f8fafc;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  background-color: #334155;
+  border-color: #64748b;
+  transform: translateY(-2px);
+}
+
+.btn-link:active {
+  transform: translateY(0);
+}
 .hero-proof {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
